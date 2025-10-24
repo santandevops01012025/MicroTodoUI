@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
       - name: todo-ui
-        image: nginx
+        image: santandevops01012025/todofe:v2
         ports:
         - containerPort: 80
+
