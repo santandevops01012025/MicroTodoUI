@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: ui.santan.shop
+  - host: ui.santansre.shop
     http:
       paths:
       - pathType: Prefix
@@ -15,3 +15,4 @@ spec:
             name: todo-ui
             port: 
               number: 80
+
