@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: todo-ui-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: azure-application-gateway
   rules:
   - host: ui.santansre.shop
     http:
@@ -15,4 +15,5 @@ spec:
             name: todo-ui
             port: 
               number: 80
+
 
